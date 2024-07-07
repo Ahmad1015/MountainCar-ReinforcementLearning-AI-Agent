@@ -25,6 +25,7 @@ pip install gymnasium[classic-control]
 ## Usage
 To train the AI agent, execute the provided Jupyter Notebook, Or you can open this Google Colab File:
 [Google Colab Link](https://colab.research.google.com/drive/12p93xXxSYDMTxjnNW2GwaF3tcvOLAMYa)
+
 The notebook will walk you through the following steps:
 
 * Importing the necessary libraries.
@@ -33,10 +34,10 @@ The notebook will walk you through the following steps:
 * Implementing the experience replay mechanism.
 * Defining the DQN agent.
 * Training the agent.
-* Results
+## Results
 The DQN agent is trained for a maximum of 2000 episodes or until it reaches an average score of 200 over 100 consecutive episodes. The training progress, including the average score per 100 episodes, is printed during training.
 
-Video Output
+## Video Output
 A video demonstration of the trained agent can be generated and viewed. To create the video, the trained agent interacts with the environment, and the frames are saved and compiled into an MP4 file.
 
 
